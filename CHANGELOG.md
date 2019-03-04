@@ -34,4 +34,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - Nothing
 
-[Unreleased]: https://github.com/php-unified/stream-wrapper/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/ulrack/vfs/compare/1.0.0...HEAD
