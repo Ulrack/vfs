@@ -4,15 +4,15 @@
  * See LICENSE for license details.
  */
 
-namespace Ulrack\Vfs\Tests\File;
+namespace Ulrack\Vfs\Tests\Component\File;
 
 use Ulrack\Vfs\Common\FileInterface;
-use Ulrack\Vfs\File\File;
+use Ulrack\Vfs\Component\File\File;
 use PHPUnit\Framework\TestCase;
 use InvalidArgumentException;
 
 /**
- * @coversDefaultClass \Ulrack\Vfs\File\File
+ * @coversDefaultClass \Ulrack\Vfs\Component\File\File
  */
 class FileTest extends TestCase
 {

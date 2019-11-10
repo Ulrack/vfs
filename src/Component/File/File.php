@@ -4,7 +4,7 @@
  * See LICENSE for license details.
  */
 
-namespace Ulrack\Vfs\File;
+namespace Ulrack\Vfs\Component\File;
 
 use Ulrack\Vfs\Common\FileInterface;
 use Ulrack\Vfs\Exception\LockedOutException;
@@ -12,9 +12,6 @@ use InvalidArgumentException;
 
 /**
  * An interface for an iterable file.
- *
- * @SuppressWarnings(PHPMD.TooManyPublicMethods)
- * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
  */
 class File implements FileInterface
 {

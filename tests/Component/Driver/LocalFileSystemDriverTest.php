@@ -4,15 +4,15 @@
  * See LICENSE for license details.
  */
 
-namespace Ulrack\Vfs\Tests\Driver;
+namespace Ulrack\Vfs\Tests\Component\Driver;
 
 use Ulrack\Vfs\Exception\FileNotFoundException;
-use Ulrack\Vfs\FileSystem\LocalFileSystem;
-use Ulrack\Vfs\Driver\LocalFileSystemDriver;
+use Ulrack\Vfs\Component\FileSystem\LocalFileSystem;
+use Ulrack\Vfs\Component\Driver\LocalFileSystemDriver;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @coversDefaultClass \Ulrack\Vfs\Driver\LocalFileSystemDriver
+ * @coversDefaultClass \Ulrack\Vfs\Component\Driver\LocalFileSystemDriver
  * @covers \Ulrack\Vfs\Exception\FileNotFoundException
  * @covers \Ulrack\Vfs\Exception\FileException
  */

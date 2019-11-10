@@ -21,9 +21,9 @@ Drivers are build to connect to a file system.
 This package only contains a driver for a local file system.
 The drivers are build upon `Ulrack\Vfs\Common\FileSystemDriverInterface`.
 
-#### Ulrack\Vfs\Driver\LocalFileSystemDriver
+#### Ulrack\Vfs\Component\Driver\LocalFileSystemDriver
 
-This implementation serves as a factory for the `Ulrack\Vfs\FileSystem\LocalFileSystem`.
+This implementation serves as a factory for the `Ulrack\Vfs\Component\FileSystem\LocalFileSystem`.
 An example implementation looks like the following:
 
 ```php
@@ -42,7 +42,7 @@ File systems are based on `Ulrack\Vfs\Common\FileSystemInterface`.
 File systems provide basic functionalities of PHP for file and directory manipulation,
 but based on an interface. This simplifies changing the sources of your files and directories.
 
-#### Ulrack\Vfs\FileSystem\LocalFileSystem
+#### Ulrack\Vfs\Component\FileSystem\LocalFileSystem
 
 This class implements the functionalities to manipulate a confined local file system.
 The creation of this class is recommended to be done through the `LocalFileSystemDriver`,
@@ -59,7 +59,7 @@ $filesystem = new LocalFileSystem(__DIR__ . '/tests/test-filesystem');
 This package also provides an iterator class for files.
 This iterator is build on the `Ulrack\Vfs\Common\FileInterface`.
 
-#### Ulrack\Vfs\File\File
+#### Ulrack\Vfs\Component\File\File
 
 This class is the implementation of the `FileInterface`.
 It exposes iterator and `ArrayAccess` functionalities on a file.

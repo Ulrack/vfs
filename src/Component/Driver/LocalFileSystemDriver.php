@@ -4,9 +4,9 @@
  * See LICENSE for license details.
  */
 
-namespace Ulrack\Vfs\Driver;
+namespace Ulrack\Vfs\Component\Driver;
 
-use Ulrack\Vfs\FileSystem\LocalFileSystem;
+use Ulrack\Vfs\Component\FileSystem\LocalFileSystem;
 use Ulrack\Vfs\Common\FileSystemDriverInterface;
 use Ulrack\Vfs\Common\FileSystemInterface;
 use Ulrack\Vfs\Exception\FileNotFoundException;
@@ -37,8 +37,6 @@ class LocalFileSystemDriver implements FileSystemDriverInterface
      * Disconnects from the file system.
      *
      * @return void
-     *
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function disconnect(FilesystemInterface $filesystem): void
     {

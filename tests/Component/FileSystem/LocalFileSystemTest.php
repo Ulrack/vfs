@@ -4,17 +4,17 @@
  * See LICENSE for license details.
  */
 
-namespace Ulrack\Vfs\Tests\FileSystem;
+namespace Ulrack\Vfs\Tests\Component\FileSystem;
 
 use Ulrack\Vfs\Exception\FileNotFoundException;
 use Ulrack\Vfs\Exception\InaccessibleFileException;
 use Ulrack\Vfs\Common\FileInterface;
-use Ulrack\Vfs\FileSystem\LocalFileSystem;
+use Ulrack\Vfs\Component\FileSystem\LocalFileSystem;
 use PHPUnit\Framework\TestCase;
 use FilesystemIterator;
 
 /**
- * @coversDefaultClass \Ulrack\Vfs\FileSystem\LocalFileSystem
+ * @coversDefaultClass \Ulrack\Vfs\Component\FileSystem\LocalFileSystem
  * @covers \Ulrack\Vfs\Exception\InaccessibleFileException
  * @covers \Ulrack\Vfs\Exception\FileNotFoundException
  *
@@ -29,7 +29,7 @@ class LocalFileSystemTest extends TestCase
      */
     public function testConstruct(): LocalFileSystem
     {
-        $subject = new LocalFileSystem(__DIR__.'/../test-filesystem');
+        $subject = new LocalFileSystem(__DIR__.'/../../test-filesystem');
         $this->assertInstanceOf(LocalFileSystem::class, $subject);
 
         return $subject;

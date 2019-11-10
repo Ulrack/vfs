@@ -4,19 +4,17 @@
  * See LICENSE for license details.
  */
 
-namespace Ulrack\Vfs\FileSystem;
+namespace Ulrack\Vfs\Component\FileSystem;
 
 use Ulrack\Vfs\Common\FileInterface;
 use Ulrack\Vfs\Common\FileSystemInterface;
 use Ulrack\Vfs\Exception\InaccessibleFileException;
 use Ulrack\Vfs\Exception\FileNotFoundException;
-use Ulrack\Vfs\File\File;
+use Ulrack\Vfs\Component\File\File;
 use FilesystemIterator;
 
 /**
  * An implementation of the FileSystemInterface for a local file system.
- *
- * @SuppressWarnings(PHPMD.TooManyPublicMethods)
  */
 class LocalFileSystem implements FileSystemInterface
 {
