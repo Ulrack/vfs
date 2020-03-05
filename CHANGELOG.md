@@ -4,24 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2.0.0 - 2019-11-10
-### Added
-- Nothing
+## 2.0.1 - 2020-03-05
+### Changed
+- Changed company name references.
 
+## 2.0.0 - 2019-11-10
 ### Changed
 - Unified namespace conventions used across packages
-
-### Deprecated
-- Nothing
-
-### Removed
-- Nothing
-
-### Fixed
-- Nothing
-
-### Security
-- Nothing
 
 ## 1.0.0 - 2019-02-22
 ### Added
@@ -38,20 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Ulrack\Vfs\Exception\LockedOutException`
 - Unit Tests
 
-### Changed
-- Nothing
-
-### Deprecated
-- Nothing
-
-### Removed
-- Nothing
-
-### Fixed
-- Nothing
-
-### Security
-- Nothing
-
-[Unreleased]: https://github.com/ulrack/vfs/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/ulrack/vfs/compare/2.0.1...HEAD
+[2.0.1]: https://github.com/ulrack/vfs/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/ulrack/vfs/compare/1.0.0...2.0.0
