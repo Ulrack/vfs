@@ -1,4 +1,4 @@
-# DEPRECATION NOTICE: this package has been moved an improved at [grizz-it/vfs](https://github.com/grizz-it/vfs)
+# DEPRECATION NOTICE: this package has been moved and improved at [grizz-it/vfs](https://github.com/grizz-it/vfs)
 
 [![Build Status](https://travis-ci.com/ulrack/vfs.svg?branch=master)](https://travis-ci.com/ulrack/vfs)
 
